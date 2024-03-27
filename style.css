@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+                                /* header-part */
+
+.header-div{
+    width: 100vw;
+    height: 15vw;
+    display: flex;
+    justify-content: space-around;
+}
+.div1{
+    width: 50vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div1-box{
+    width: 6vw;
+    height: 6vw;
+    background-color: rgba(7, 62, 62, 0.886);
+    box-shadow: 1vw 1vw 0.5vw black inset; 
+}
+.div2-box{
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+.div2-box strong{
+    font-weight: 600;
+    color:orangered;
+    
+}
+.div2{
+    width: 30vw;
+    height: 30vw;
+    background-color:rgba(7, 62, 62, 0.886);
+    position: relative;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.header-text1{
+    font-size: 4vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-text2{
+    font-size: 4vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-text3{
+    font-size: 4vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+                                    /* main-part */
+
+.bgimage-div{
+    background-image: url(template-5-bgimage.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100vw;
+    height: 45vw;
+}
+
+                                /* footer-part */
+
+.footer-div{
+    width: 100vw;
+    height:55vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-section{
+    width: 55vw;
+    height: 50vw;
+}
+.footer-head{
+    width: 55vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-services{
+    font-size:2vw ;
+    text-transform: uppercase;
+    color:rgb(12, 93, 93);
+}
+.services-name{
+    width: 55vw;
+    height: 13.3vw;
+    display: flex;
+    align-items: center;
+}
+.number-box{
+    width: 10vw;
+    height: 12vw;
+    display: flex;
+    justify-content: center;
+}
+.num-01 h1{
+    font-size: 8.5vw;
+    color:orangered;
+    font-family: fantasy;
+}
+.services-para{
+    width: 44vw;
+    height: 12vw;
+    margin-left: 1vw;
+}
+.services-header{
+    width: 45vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: rgb(12, 93, 93);
+}
+.services-lorem{
+    font-size: 1.5vw;
+}
+.right-section{
+    width: 35vw;
+    height: 50vw;   
+}
+.box1{
+    width: 35vw;
+    height: 20vw;
+    background-color:rgb(7, 62, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box2{
+    width: 35vw;
+    height: 20vw;
+    background-color:orangered;
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    width: 35vw;
+    height: 10vw;
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+    color:rgb(35, 105, 162);
+}
+.para-box1{
+    width: 30vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+}
+.about-us{
+    width: 30vw;
+    height: 6vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.lorem{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    color: white;
+}
+.para-box2{
+    width: 30vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us{
+    width: 30vw;
+    height: 6vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.lorem-2{
+    width: 30vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    color: white;
+}
+.orange-line{
+    width: 100vw;
+    height: 3vw;
+    background-color: orangered;
+}
+
+
+                            /* media-qurey */
+
+@media screen and (max-width:510px){
+    .footer-div{
+        width: 100vw;
+        height:90vw;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .left-section{
+        width: 100vw;
+        height: 50vw;
+    }
+    .footer-head{
+        width: 100vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-services{
+        font-size:2vw ;
+        text-transform: uppercase;
+        color:rgb(12, 93, 93);
+    }
+    .services-name{
+        width: 98vw;
+        height: 13.3vw;
+        display: flex;
+        align-items: center;
+    }
+    .number-box{
+        width: 10vw;
+        height: 12vw;
+        display: flex;
+        justify-content: center;
+    }
+    .num-01 h1{
+        font-size: 8.5vw;
+        color:orangered;
+        font-family: fantasy;
+    }
+    .services-para{
+        width: 90vw;
+        height: 12vw;
+        margin-left: 1vw;
+    }
+    .services-header{
+        width: 45vw;
+        height: 4vw;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        color: rgb(12, 93, 93);
+    }
+    .services-lorem{
+        font-size: 2.1vw;
+    }
+    .right-section{
+        width: 100vw;
+        height: 70vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .box1{
+        width: 50vw;
+        height: 30vw;
+        background-color:rgba(7, 62, 62);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box2{
+        width: 50vw;
+        height: 30vw;
+        background-color:orangered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box3{
+        width: 100vw;
+        height: 10vw;
+        background-color:lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vw;
+        color:rgb(35, 105, 162);
+    }
+    .para-box1{
+        width: 30vw;
+        height: 18vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us{
+        width: 30vw;
+        height: 6vw;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vw;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .lorem{
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+        color: white;
+    }
+    .para-box2{
+        width: 30vw;
+        height: 18vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us{
+        width: 30vw;
+        height: 6vw;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vw;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .lorem-2{
+        width: 30vw;
+        height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+        color: white;
+    }
+    .orange-line{
+        width: 100vw;
+        height: 3vw;
+        background-color: orangered;
+        margin-top: 3vw;
+    }
+}
+
+@media screen and (max-width:399px){
+
+    .bgimage-div{
+        background-image: url(template-5-bgimage.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100vw;
+        height: 65vw;
+    }
+
+    .services-name{
+        width: 96vw;
+        height: 13.3vw;
+        display: flex;
+        align-items: center;
+        margin-bottom:3vw ;
+    }
+    .footer-div{
+        width: 100vw;
+        height:130vw;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .left-section{
+        width: 55vw;
+        height: 60vw;
+    }
+    .right-section{
+        width: 100vw;
+        height: 70vw;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .box1{
+        width: 100vw;
+        height: 30vw;
+        background-color:rgba(7, 62, 62);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box2{
+        width: 100vw;
+        height: 30vw;
+        background-color:orangered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box3{
+        width: 100vw;
+        height: 10vw;
+        background-color:lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5vw;
+        color:rgb(35, 105, 162);
+    }
+    .para-box1{
+        width: 60vw;
+        height: 18vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us{
+        width: 60vw;
+        height: 6vw;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .lorem{
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.3vw;
+        color: white;
+    }
+    .para-box2{
+        width: 100vw;
+        height: 18vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us{
+        width: 100vw;
+        height: 6vw;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .lorem-2{
+        width: 100vw;
+        height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.3vw;
+        color: white;
+    }
+    .orange-line{
+        width: 100vw;
+        height: 3vw;
+        background-color: orangered;
+        margin-top: 3vw;
+    }
+}
